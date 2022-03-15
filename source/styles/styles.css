@@ -1,0 +1,159 @@
+:root{
+    --fuentePrincipal: 'Poppins', sans-serif;
+    --blanco:#fff;
+    --negro:#000;
+    --azul:#00BFFF;
+    --morado:#5e51b4;
+}
+
+body{
+    background-image: url(../img/fondo3.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99%;
+    /* height: 50rem; */
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+h1{
+    font-family: var(--fuentePrincipal);
+    font-size:4rem;
+}
+
+h2{
+    font-family: var(--fuentePrincipal);
+    font-size:1.6rem
+}
+
+p{
+    font-family: var(--fuentePrincipal);
+    font-size:1.5rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.logo{
+    margin:10px auto;
+	display:block;
+    margin: 1.5rem 0;
+    max-width: 15rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.pokedex{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 33%);
+    justify-items: center;
+}
+
+.poke1{
+    background-color:red;
+    width: 40rem;
+    height:50rem;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--blanco);
+    margin-right: -60rem;
+}
+
+.resorte{
+    background-color: var(--negro);
+    width: 5rem;
+    height:50.5rem;
+    position: center;
+    position: relative;
+    border-radius: 10%;
+}
+
+.poke2{
+    background-color:red;
+    width: 40rem;
+    height:50rem;
+    border-radius: 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--blanco);
+    margin-left: -60rem;
+}
+
+.poke{
+	display:block;
+    width: 75rem;
+    margin: 1rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pantalla{
+    background-color:var(--blanco);
+    width: 33rem;
+    height:35rem;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    border-radius:5%;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.pokeball{
+    margin-top:6rem;
+    height:60%;
+    width:60%;
+}
+
+.infoIzquierda{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.infoDerecha{
+    margin-left:5rem;
+}
+
+.nombre{
+    margin-left:3rem
+}
+
+.buscar{
+    margin-left:3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    font-family: var(--fuentePrincipal);
+}
+
+.entrada{
+    border-radius: 10%;
+    width:20rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boton{
+    background-color: var(--azul);
+    border-radius: 15%;
+    margin-right: 5rem;
+    height: 5rem;
+    width: 8rem;
+}
+
+.boton:hover{
+    transition: color 0.03s linear 0.01s;
+    background-color: var(--morado)
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,800;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="source/styles/styles.css">
+</head>
+
+<body>
+    <header class="contenedor">
+        <div class="header">
+            <img class="logo" src="source/img/logo2.png" alt="logo">
+            <h1>Pokedex</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- <div>
+            <img class="poke" src="source/img/pokedex.gif" alt="pokedex">
+        </div> -->
+
+        <div class="pokedex">
+            <div class="poke1">
+                <div class="pantalla">
+                    <img id="pokeImg" class="pokeball" src="./source/img/pokeball.png" alt="Pokemon">
+                </div >
+                
+                <div class="nombre">
+                    <h2>Introdusca el Nombre de un Pokemon</h2>
+                </div>
+                
+                <div class="buscar">
+                    <input class="entrada" type="text" name="pokeName" id="pokeName" placeholder="Nombre del Pokemon">
+                    <button class="boton" onClick="fetchPokemon()">Buscar</button>
+                </div>
+                
+            </div>
+
+            <div class="resorte"></div>
+
+            <div class="poke2">
+
+                <div class="infoIzquierda">
+                    <h2>Nombre: </h2>
+                    <h2>Tipo: </h2>
+                </div>
+
+                <div class="infoDerecha">
+                    <h2>Estadisticas: </h2>
+                    <h2>Movimientos: </h2>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <script type="text/javascript" src="source/js/index.js"></script>
+    </footer>
+
+</body>
+
+</html>
