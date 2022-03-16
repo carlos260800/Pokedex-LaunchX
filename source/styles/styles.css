@@ -44,7 +44,7 @@ h1{
 
 h2{
     font-family: var(--fuentePrincipal);
-    font-size:2rem
+    font-size:1.5rem
 }
 
 h3{
@@ -54,23 +54,20 @@ h3{
 
 @media (max-width: 575px) {
     h2{
-        font-size:4rem
-    }
-    h2{
-        font-size:4rem
+        font-size:2rem
     }
     h3{
-        font-size:3.5rem
+        font-size:1.8rem
     }
     span {
-        font-size:4rem
+        font-size:1.5rem
     }
     
 }
 
 p{
     font-family: var(--fuentePrincipal);
-    font-size:1.5rem;
+    font-size:0.8rem;
 }
 
 .contenedor {
@@ -78,7 +75,11 @@ p{
     margin: 0 auto;
 }
 
-
+@media (max-width: 575px) {
+    .contenedor {
+        max-width: 40rem;
+    }
+}
 
 .header{
     display:flex;
@@ -90,7 +91,8 @@ p{
     
     .header{
         background-color:var(--blanco);
-        height: 20rem;
+        height: 5rem;
+        justify-content:space-between;
     }
     
 }
@@ -111,10 +113,14 @@ p{
 
 @media (max-width: 575px) {
     .logo{
-        margin-left: 7rem;
-        max-width: 25rem;
+        margin-left: 1.5rem;
+        max-width: 8rem;
     }
     
+    .titulo{
+        margin-right: 1.5rem;
+        font-size:2rem;
+    }
 }
 
 
@@ -133,9 +139,9 @@ p{
 @media (max-width: 575px) {
     
     .fondo{
-        width: 80rem;
-        height:150rem;
-        margin-top: 10rem;
+        width: 35rem;
+        height:70rem;
+        margin-top: 4rem;
     }
     
 }
@@ -201,8 +207,10 @@ p{
 
 @media (max-width: 575px) {
     .pantalla{
+        width: 20rem;
+        height:18rem;
         margin: 0 auto;
-        margin-top:5rem
+        margin-top:2.5rem
     }
 }
 
@@ -212,8 +220,18 @@ p{
     width:80%;
 }
 
+@media (max-width: 575px) {
+    .pokeball{
+        margin-top:3rem;
+        height:60%;
+        width:60%;
+    }
+    
+}
+
+
 .info{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left:5rem
 }
 
@@ -253,22 +271,21 @@ p{
 @media (max-width: 575px) {
     
     .buscar{
-        margin-left:4rem;
         display: flex;
         justify-content: space-between;
     }
     
     .entrada{
-        width:45rem;
+        width:20rem;
         text-align: center;
-        font-size: 4.5rem;
+        font-size: 1.8rem;
     }
     .boton{
         border-radius: 15%;
-        font-size: 4rem;
-        height: 8rem;
-        width: 20rem;
-        margin-right: 7rem;
+        font-size: 1.6rem;
+        height: 2.5rem;
+        width: 10rem;
+        margin-right: 3rem;
     }
     
     
