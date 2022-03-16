@@ -6,6 +6,9 @@
     --morado:#5e51b4;
 }
 
+
+
+
 body{
     background-image: url(../img/fondo3.jpg);
     background-position: center; 
@@ -15,7 +18,7 @@ body{
     /* height: 50rem; */
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
     body{
         background-image: url(../img/fondo.jpg);
         width: 100%;
@@ -49,7 +52,7 @@ h3{
     font-size:1.6rem
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
     h2{
         font-size:4rem
     }
@@ -62,6 +65,7 @@ h3{
     span {
         font-size:4rem
     }
+    
 }
 
 p{
@@ -74,39 +78,46 @@ p{
     margin: 0 auto;
 }
 
+
+
 .header{
     display:flex;
     align-items:center;
     justify-content:space-between;
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
+    
     .header{
         background-color:var(--blanco);
         height: 20rem;
     }
+    
+}
+
+.titulo{
+    margin-right: 7rem;
+    font-size:5rem;
 }
 
 .logo{
     margin:10px auto;
-	display:block;
+    display:block;
     margin: 1.5rem 0;
     max-width: 15rem;
     /* margin-left: auto;
     margin-right: auto; */
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
     .logo{
         margin-left: 7rem;
         max-width: 25rem;
     }
-
-    .titulo{
-        margin-right: 7rem;
-        font-size:5rem;
-    }
+    
 }
+
+
 
 .fondo{
     background-color:red;
@@ -119,20 +130,26 @@ p{
     margin: 0 auto;
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
+    
     .fondo{
         width: 80rem;
         height:150rem;
         margin-top: 10rem;
     }
+    
 }
+
+
+
+
 
 .pokedex{
     display: grid;
     grid-template-columns: repeat(auto-fill, 50%);
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
     .pokedex{
         display: inline;
     }
@@ -166,6 +183,10 @@ p{
     margin-right: auto;
 }
 
+
+
+
+
 .pantalla{
     background-color:var(--blanco);
     width: 37rem;
@@ -178,10 +199,11 @@ p{
     margin-left: 3rem;
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
     .pantalla{
         margin: 0 auto;
         margin-top:5rem
+    }
 }
 
 .pokeball{
@@ -207,6 +229,7 @@ p{
     font-family: var(--fuentePrincipal);
 }
 
+
 .entrada{
     border-radius: 10%;
     width:25rem;
@@ -227,13 +250,14 @@ p{
     background-color: var(--morado);
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
+    
     .buscar{
         margin-left:4rem;
         display: flex;
         justify-content: space-between;
     }
-
+    
     .entrada{
         width:45rem;
         text-align: center;
@@ -246,4 +270,6 @@ p{
         width: 20rem;
         margin-right: 7rem;
     }
+    
+    
 }
