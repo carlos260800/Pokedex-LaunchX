@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,800;1,100&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="source/styles/styles.css">
+    <link rel="icon" href="source/img/logo2.png">
 </head>
 
 <body>
@@ -20,45 +21,39 @@
     </header>
 
     <main>
-        <!-- <div>
-            <img class="poke" src="source/img/pokedex.gif" alt="pokedex">
-        </div> -->
+        <div class="fondo">
+            <div class="pokedex">
+                <div>
+                    <div class="pantalla">
+                        <img id="pokeImg" class="pokeball" src="./source/img/pokeball.png" alt="Pokemon">
+                    </div>
 
-        <div class="pokedex">
-            <div class="poke1">
-                <div class="pantalla">
-                    <img id="pokeImg" class="pokeball" src="./source/img/pokeball.png" alt="Pokemon">
-                </div >
-                
-                <div class="nombre">
-                    <h2>Introdusca el Nombre de un Pokemon</h2>
+                    <div class="nombre">
+                        <h3>Enter Name of a Pokémon: </h3>
+                    </div>
+
+                    <div class="buscar">
+                        <input class="entrada" type="text" name="pokeName" id="pokeName"
+                            placeholder="Pokemon Name">
+                        <button class="boton" onClick="fetchPokemon()">Search</button>
+                    </div>
                 </div>
-                
-                <div class="buscar">
-                    <input class="entrada" type="text" name="pokeName" id="pokeName" placeholder="Nombre del Pokemon">
-                    <button class="boton" onClick="fetchPokemon()">Buscar</button>
+
+                <div class="info">
+                    <div class="pantallaInfo">
+                        <h2>Name: <span name="nombre" id="nombre"> </span></h2>
+                        <h2>ID: <span name="id" id="id"></span></h2>
+                        <h2>Type: <span name="pokeTipo" id="pokeTipo"> </span></h2>
+                        <h2>Hp: <span name="pokeHp" id="pokeHp"> </span></hh2>
+                        <H2>Atack: <span name="pokeAtaque" id="pokeAtaque"> </span></h2>
+                        <h2>Defens: <span name="pokeDefensa" id="pokeDefensa"> </span></h2>
+                        <h2>Special Attack: <span name="pokeAtaqueEspecial" id="pokeAtaqueEspecial"> </span></h2>
+                        <h2>Special Defense: <span name="pokeDefensaEspecial" id="pokeDefensaEspecial"> </span></h2>
+                        <h2>Abilities: <span name="habilidad1" id="habilidad1"> </span>,
+                            <span name="habilidad2" id="habilidad2"> </span></h2>
+                    </div>
                 </div>
-                
             </div>
-
-            <div class="resorte"></div>
-
-            <div class="poke2">
-
-                <div class="infoIzquierda">
-                    <h2>Nombre: </h2>
-                    <h2>Tipo: </h2>
-                </div>
-
-                <div class="infoDerecha">
-                    <h2>Estadisticas: </h2>
-                    <h2>Movimientos: </h2>
-                </div>
-
-                
-            </div>
-        </div>
-
     </main>
 
     <footer>

@@ -20,12 +20,22 @@ html {
     font-size: 62.5%;
 }
 
+span {
+    font-family: sans-serif;
+    font-size:1.5rem
+}
+
 h1{
     font-family: var(--fuentePrincipal);
     font-size:4rem;
 }
 
 h2{
+    font-family: var(--fuentePrincipal);
+    font-size:2rem
+}
+
+h3{
     font-family: var(--fuentePrincipal);
     font-size:1.6rem
 }
@@ -57,19 +67,18 @@ p{
 
 .pokedex{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 33%);
-    justify-items: center;
+    grid-template-columns: repeat(auto-fill, 50%);
 }
 
-.poke1{
+.fondo{
     background-color:red;
-    width: 40rem;
+    width: 80rem;
     height:50rem;
     border-radius: 5%;
     border-width: 1px;
     border-style: solid;
     border-color: var(--blanco);
-    margin-right: -60rem;
+    margin: 0 auto;
 }
 
 .resorte{
@@ -102,28 +111,25 @@ p{
 
 .pantalla{
     background-color:var(--blanco);
-    width: 33rem;
+    width: 37rem;
     height:35rem;
     position: relative;
     display: flex;
     justify-content:center;
     border-radius:5%;
-    margin: 2rem 2rem 2rem 2rem;
+    margin-top:3rem;
+    margin-left: 3rem;
 }
 
 .pokeball{
-    margin-top:6rem;
-    height:60%;
-    width:60%;
+    margin-top:3.5rem;
+    height:80%;
+    width:80%;
 }
 
-.infoIzquierda{
+.info{
     margin-top: 3rem;
-    margin-left: 5rem;
-}
-
-.infoDerecha{
-    margin-left:5rem;
+    margin-left:5rem
 }
 
 .nombre{
@@ -140,7 +146,7 @@ p{
 
 .entrada{
     border-radius: 10%;
-    width:20rem;
+    width:25rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -148,9 +154,9 @@ p{
 .boton{
     background-color: var(--azul);
     border-radius: 15%;
-    margin-right: 5rem;
-    height: 5rem;
-    width: 8rem;
+    font-size: 2rem;
+    height: 5.5rem;
+    width: 9rem;
 }
 
 .boton:hover{
