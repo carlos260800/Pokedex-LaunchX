@@ -17,7 +17,8 @@ const fetchPokemon = () => {
         //console.log(pokeImg);
         let nombre = data.name;
         let id=data.id;
-        let tipo = data.types[0].type.name;
+        let tipo1 = data.types[0].type.name;
+        // let tipo2=data.types[1].type.name;
         let hp = data.stats[0].base_stat;
         let ataque = data.stats[1].base_stat;
         let defensa = data.stats[2].base_stat;
@@ -28,7 +29,8 @@ const fetchPokemon = () => {
         pokeImage(pokeImg);
         document.getElementById("nombre").innerHTML=nombre;
         document.getElementById("id").innerHTML=id;
-        document.getElementById("pokeTipo").innerHTML=tipo;
+        document.getElementById("pokeTipo").innerHTML=tipo1;
+        // document.getElementById("pokeTipo2").innerHTML=tipo2;
         document.getElementById("pokeHp").innerHTML=hp;
         document.getElementById("pokeAtaque").innerHTML=ataque;
         document.getElementById("pokeDefensa").innerHTML=defensa;

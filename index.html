@@ -8,6 +8,7 @@
     <title>Pokedex</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,800;1,100&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="source/styles/normalize.css">
     <link rel="stylesheet" href="source/styles/styles.css">
     <link rel="icon" href="source/img/logo2.png">
 </head>
@@ -16,7 +17,7 @@
     <header class="contenedor">
         <div class="header">
             <img class="logo" src="source/img/logo2.png" alt="logo">
-            <h1>Pokedex</h1>
+            <h1 class="titulo">Pokedex</h1>
         </div>
     </header>
 
@@ -33,24 +34,24 @@
                     </div>
 
                     <div class="buscar">
-                        <input class="entrada" type="text" name="pokeName" id="pokeName"
-                            placeholder="Pokemon Name">
+                        <input class="entrada" type="text" name="pokeName" id="pokeName" placeholder="Pokemon Name">
                         <button class="boton" onClick="fetchPokemon()">Search</button>
                     </div>
                 </div>
 
                 <div class="info">
                     <div class="pantallaInfo">
-                        <h2>Name: <span name="nombre" id="nombre"> </span></h2>
+                        <h2>Name:<span name="nombre" id="nombre"> </span></h2>
                         <h2>ID: <span name="id" id="id"></span></h2>
-                        <h2>Type: <span name="pokeTipo" id="pokeTipo"> </span></h2>
+                        <h2>Type: <span name="pokeTipo" id="pokeTipo"> </span> </span></h2>
                         <h2>Hp: <span name="pokeHp" id="pokeHp"> </span></hh2>
                         <H2>Atack: <span name="pokeAtaque" id="pokeAtaque"> </span></h2>
-                        <h2>Defens: <span name="pokeDefensa" id="pokeDefensa"> </span></h2>
+                        <h2>Defense: <span name="pokeDefensa" id="pokeDefensa"> </span></h2>
                         <h2>Special Attack: <span name="pokeAtaqueEspecial" id="pokeAtaqueEspecial"> </span></h2>
                         <h2>Special Defense: <span name="pokeDefensaEspecial" id="pokeDefensaEspecial"> </span></h2>
                         <h2>Abilities: <span name="habilidad1" id="habilidad1"> </span>,
-                            <span name="habilidad2" id="habilidad2"> </span></h2>
+                            <span name="habilidad2" id="habilidad2"> </span>
+                        </h2>
                     </div>
                 </div>
             </div>
