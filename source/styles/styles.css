@@ -18,7 +18,7 @@ body{
     /* height: 50rem; */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     body{
         background-image: url(../img/fondo.jpg);
         width: 100%;
@@ -52,7 +52,7 @@ h3{
     font-size:1.6rem
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     h2{
         font-size:4rem
     }
@@ -86,7 +86,7 @@ p{
     justify-content:space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     
     .header{
         background-color:var(--blanco);
@@ -109,7 +109,7 @@ p{
     margin-right: auto; */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     .logo{
         margin-left: 7rem;
         max-width: 25rem;
@@ -130,7 +130,7 @@ p{
     margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     
     .fondo{
         width: 80rem;
@@ -149,7 +149,7 @@ p{
     grid-template-columns: repeat(auto-fill, 50%);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     .pokedex{
         display: inline;
     }
@@ -199,7 +199,7 @@ p{
     margin-left: 3rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     .pantalla{
         margin: 0 auto;
         margin-top:5rem
@@ -250,7 +250,7 @@ p{
     background-color: var(--morado);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     
     .buscar{
         margin-left:4rem;
